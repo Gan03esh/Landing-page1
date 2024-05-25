@@ -1,0 +1,511 @@
+*{
+     font-family:'Times New Roman', Times, serif 
+    
+}
+
+.header{
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(249, 195, 129);
+    
+
+}
+
+.logo{
+    font-size: 3rem;
+    margin-left: 20px;
+    
+}
+.logo:hover{
+    color: rgb(146, 111, 179);
+}
+.nav{
+    font-size: 1.5rem;
+    margin-left: 40px;
+}
+.nav:hover{
+    color: rgb(120, 93, 148);
+}
+.middle{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    background-color:rgb(235, 223, 209)
+}
+.left-container img{
+    height: 600px;
+    width: 700px;
+    margin: 1rem 1rem 1rem 1rem;
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 40px 40px 40px 40px;
+}
+.right-container h1{
+    font-size: 4rem;
+    text-align: center;
+    
+}
+.right-container p{
+    font-size: 2rem;
+    text-align: center;
+}
+.Services{
+    text-align: center;
+    font-size: 4rem;
+    background-color:rgb(249, 195, 129);
+
+}
+.service-container{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    background-color:rgb(235, 223, 209);
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 40px 40px 40px 40px;
+    transition: .2s ease;
+    margin: 10px 10px 10px 10px;
+}
+.service-container:hover{
+    transform: scale(1.02);
+}
+.left-service-threading img{
+    height: 500px;
+    width: 600px;
+    margin: 1rem 1rem 1rem 1rem;
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 40px 40px 40px 40px;
+}
+.right-service-info{
+    text-align: center;
+}
+.right-service-info h1{
+    font-size: 4rem;
+    
+}
+.right-service-info p{
+    font-size: 2rem;
+}
+.right-service-info a{
+    background-color: rgb(236, 238, 243);
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius:4px;
+    padding: 4px 4px 4px 4px;
+}
+.right-service-info a:hover{
+    background-color:rgb(236, 198, 156);
+    color: #000;
+}
+.service-container1{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    background-color:rgb(236, 198, 156);
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 40px 40px 40px 40px;
+    transition: .2s ease;
+    margin: 10px 10px 10px 10px;
+}
+.service-container1:hover{
+    transform: scale(1.02);
+}
+.right-service-info1 a:hover{
+    background-color: darkgray;
+    color: #000;
+}
+.left-service-facial img{
+    height: 500px;
+    width: 600px;
+    margin: 1rem 1rem 1rem 1rem;
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 40px 40px 40px 40px;
+}
+.right-service-info1{
+text-align: center;
+}
+.right-service-info1 h1{
+    font-size: 4rem;
+    
+}
+.right-service-info1 p{
+    font-size: 2rem;
+}
+.right-service-info1 a{
+    background-color: rgb(235, 223, 209);
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius:4px;
+    padding: 4px 4px 4px 4px;
+
+}
+.right-service-info1 a:hover{
+    background-color: darkgray;
+    color: aliceblue;
+}
+.service-container2{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    background-color:rgb(235, 223, 209);
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 40px 40px 40px 40px;
+    transition: .2s ease;
+    margin: 10px 10px 10px 10px;
+}
+.service-container2:hover{
+    transform: scale(1.02);
+}
+.left-service-bleach img{
+    height: 500px;
+    width: 600px;
+    margin: 1rem 1rem 1rem 1rem;
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 40px 40px 40px 40px;
+}
+.right-service-info2{
+    text-align: center;
+}
+.right-service-info2 h1{
+    font-size: 4rem;
+    text-align: center;
+    
+}
+.right-service-info2 p{
+    font-size: 2rem;
+    text-align: center;
+}
+.right-service-info2 a{
+    background-color: rgb(236, 238, 243);
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius:4px;
+    padding: 4px 4px 4px 4px;
+}
+.right-service-info2 a:hover{
+    background-color:rgb(236, 198, 156);
+    color: #000;
+}
+.service-container3{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    background-color:rgb(236, 198, 156);
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 40px 40px 40px 40px;
+    transition: .2s ease;
+    margin: 10px 10px 10px 10px;
+}
+.service-container3:hover{
+    transform: scale(1.02);
+}
+.left-service-massage img{
+    height: 500px;
+    width: 600px;
+    margin: 1rem 1rem 1rem 1rem;
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 40px 40px 40px 40px;
+}
+.right-service-info3{
+    text-align: center;
+}
+.right-service-info3 h1{
+    font-size: 4rem;
+    text-align: center;
+    
+}
+.right-service-info3 p{
+    font-size: 2rem;
+    text-align: center;
+}
+.right-service-info3 a{
+    background-color: rgb(236, 238, 243);
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius:4px;
+    padding: 4px 4px 4px 4px;
+}
+.right-service-info3 a:hover{
+    background-color: darkgray;
+    color: aliceblue;
+}
+.service-container4{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    background-color:rgb(235, 223, 209);
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 40px 40px 40px 40px;
+    transition: .2s ease;
+    margin: 10px 10px 10px 10px;
+}
+.service-container4:hover{
+    transform: scale(1.02);
+}
+.left-service-wax img{
+    height: 500px;
+    width: 600px;
+    margin: 1rem 1rem 1rem 1rem;
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 40px 40px 40px 40px;
+}
+.right-service-info4{
+    text-align: center;
+}
+.right-service-info4 h1{
+    font-size: 4rem;
+    text-align: center;
+    
+}
+.right-service-info4 p{
+    font-size: 2rem;
+    text-align: center;
+}
+.right-service-info4 a{
+    background-color: rgb(236, 238, 243);
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius:4px;
+    padding: 4px 4px 4px 4px;
+}
+.right-service-info4 a:hover{
+    background-color:rgb(236, 198, 156);
+    color: #000;
+}
+.service-container5{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    background-color:rgb(236, 198, 156);
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 40px 40px 40px 40px;
+    transition: .2s ease;
+    margin: 10px 10px 10px 10px;
+}
+.service-container5:hover{
+transform: scale(1.02);
+}
+.left-service-polish img{
+    height: 500px;
+    width: 600px;
+    margin: 1rem 1rem 1rem 1rem;
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 40px 40px 40px 40px;
+}
+.right-service-info5{
+    text-align: center;
+}
+.right-service-info5 h1{
+    font-size: 4rem;
+    text-align: center;
+
+    
+}
+.right-service-info5 p{
+    font-size: 2rem;
+    text-align: center;
+}
+.right-service-info5 a{
+    background-color: rgb(236, 238, 243);
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius:4px;
+    padding: 4px 4px 4px 4px;
+}
+.right-service-info5 a:hover{
+    background-color: darkgray;
+    color: aliceblue;
+}
+
+.service-container6{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    background-color:rgb(235, 223, 209);
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 40px 40px 40px 40px;
+    transition: .2s ease;
+    margin: 10px 10px 10px 10px;
+}
+.service-container6:hover{
+    transform: scale(1.02);
+}
+.left-service-medicure img{
+    height: 500px;
+    width: 600px;
+    margin: 1rem 1rem 1rem 1rem;
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 40px 40px 40px 40px;
+}
+.right-service-info6{
+    text-align: center;
+}
+.right-service-info6 h1{
+    font-size: 4rem;
+    text-align: center;
+    
+}
+.right-service-info6 p{
+    font-size: 2rem;
+    text-align: center;
+}
+.right-service-info6 a{
+    background-color: rgb(236, 238, 243);
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius:4px;
+    padding: 4px 4px 4px 4px;
+}
+.right-service-info6 a:hover{
+    background-color:rgb(236, 198, 156);
+    color: #000;
+}
+.service-container7{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    background-color:rgb(236, 198, 156);
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 40px 40px 40px 40px;
+    transition: .2s ease;
+    margin: 10px 10px 10px 10px;
+}
+.service-container7:hover{
+    transform: scale(1.02); 
+}
+.left-service-spa img{
+    height: 500px;
+    width: 600px;
+    margin: 1rem 1rem 1rem 1rem;
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 40px 40px 40px 40px;
+}
+.right-service-info7{
+    text-align: center;
+}
+.right-service-info7 h1{
+    font-size: 4rem;
+    text-align: center;
+
+    
+}
+.right-service-info7 p{
+    font-size: 2rem;
+    text-align: center;
+}
+.right-service-info7 a{
+    background-color: rgb(236, 238, 243);
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius:4px;
+    padding: 4px 4px 4px 4px;
+}
+.right-service-info7 a:hover{
+    background-color: darkgray;
+    color: aliceblue;
+}
+.service-container8{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    background-color:rgb(235, 223, 209);
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 40px 40px 40px 40px;
+    transition: .2s ease;
+    margin: 10px 10px 10px 10px;
+}
+.service-container8:hover{
+    transform: scale(1.02); 
+}
+.left-service-cut img{
+    height: 500px;
+    width: 600px;
+    margin: 1rem 1rem 1rem 1rem;
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 40px 40px 40px 40px;
+}
+.right-service-info8{
+    text-align: center;
+}
+.right-service-info8 h1{
+    font-size: 4rem;
+    text-align: center;
+    
+}
+.right-service-info8 p{
+    font-size: 2rem;
+    text-align: center;
+}
+.right-service-info8 a{
+    background-color: rgb(236, 238, 243);
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius:4px;
+    padding: 4px 4px 4px 4px;
+}
+.right-service-info8 a:hover{
+    background-color:rgb(236, 198, 156);
+    color: #000;
+}
+.service-container9{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    background-color:rgb(236, 198, 156);
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 40px 40px 40px 40px;
+    transition: .2s ease;
+    margin: 10px 10px 10px 10px;
+}
+.service-container9:hover{
+    transform: scale(1.02); 
+}
+.left-service-makeup img{
+    height: 500px;
+    width: 600px;
+    margin: 1rem 1rem 1rem 1rem;
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 40px 40px 40px 40px;
+
+}
+
+.right-service-info9{
+    text-align: center;
+}
+.right-service-info9 h1{
+    font-size: 4rem;
+    text-align: center;
+
+    
+}
+.right-service-info9 p{
+    font-size: 2rem;
+    text-align: center;
+}
+.right-service-info9 a{
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius:4px;
+    padding: 4px 4px 4px 4px;
+}
+.right-service-info9 a:hover{
+    background-color: darkgray;
+    color: rgb(245, 247, 248);
+}
+.Contact{
+    text-align: center;
+    font-size: 4rem;
+    background-color:rgb(235, 223, 209);
+}
+.container-contact{
+text-align: center;
+align-items: center;
+}
+.container-contact img{
+    height: 500px;
+    width: 600px;
+    margin: 1rem 1rem 1rem 1rem;
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 40px 40px 40px 40px;
+}
